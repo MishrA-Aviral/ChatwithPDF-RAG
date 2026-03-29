@@ -3,3 +3,4 @@ venv/
 __pycache__/
 *.pyc
 test_env/
+test_env_2/
