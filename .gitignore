@@ -4,3 +4,4 @@ __pycache__/
 *.pyc
 test_env/
 test_env_2/
+*.pdf
