@@ -9,4 +9,5 @@ streamlit
 pypdf
 python-dotenv
 langchain-huggingface
-langchain_groq
+langchain-groq
+langchain-text-splitters
