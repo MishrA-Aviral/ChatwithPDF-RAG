@@ -8,6 +8,10 @@ sdk_version: 1.32.0
 app_file: app.py
 pinned: false
 ---
+## Live Demo
+
+Try it here: https://aviralmonke-chatwithpdf.hf.space
+
 # 📄 ChatWithPDF - RAG Application
 
 An AI-powered Retrieval-Augmented Generation (RAG) application that allows users to upload PDF documents and ask context-aware questions using Large Language Models.
