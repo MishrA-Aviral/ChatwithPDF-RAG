@@ -6,6 +6,8 @@ from langchain_community.vectorstores import FAISS
 from langchain_groq import ChatGroq
 import os 
 import tempfile
+from dotenv import load_dotenv
+load_dotenv()
 if "messages" not in st.session_state:
     st.session_state.messages = []
 if "retriever" not in st.session_state:
