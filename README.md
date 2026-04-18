@@ -1,3 +1,13 @@
+---
+title: ChatWithPDF RAG
+emoji: 📄
+colorFrom: blue
+colorTo: purple
+sdk: streamlit
+sdk_version: 1.32.0
+app_file: app.py
+pinned: false
+---
 # 📄 ChatWithPDF - RAG Application
 
 An AI-powered Retrieval-Augmented Generation (RAG) application that allows users to upload PDF documents and ask context-aware questions using Large Language Models.
