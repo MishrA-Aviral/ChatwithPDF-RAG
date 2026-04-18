@@ -6,8 +6,6 @@ from langchain_community.vectorstores import FAISS
 from langchain_groq import ChatGroq
 import os 
 import tempfile
-from dotenv import load_dotenv
-load_dotenv()
 if "messages" not in st.session_state:
     st.session_state.messages = []
 if "retriever" not in st.session_state:
@@ -46,7 +44,7 @@ if uploaded_file and st.session_state.retriever is None:
 llm = ChatGroq(
     model="llama-3.1-8b-instant",
     temperature=0.7,
-    api_key=os.getenv("GROQ_API_KEY")
+    api_key=st.secrets("GROQ_API_KEY")
 )
 
 for message in st.session_state.messages:
