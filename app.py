@@ -46,7 +46,7 @@ if uploaded_file and st.session_state.retriever is None:
 llm = ChatGroq(
     model="llama-3.1-8b-instant",
     temperature=0.7,
-    api_key=st.secrets("GROQ_API_KEY")
+    api_key=os.getenv("GROQ_API_KEY")
 )
 
 for message in st.session_state.messages:
